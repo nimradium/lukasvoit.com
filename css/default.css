@@ -15,9 +15,9 @@ body {
 
 .navbar-header {
     position: inherit;
-    width: 100px;
-    left: 15%;
-    top: 15px;
+    width: 130px;
+    left: 12%;
+    top: 10px;
 }
 
 .navbar-header img {
@@ -35,8 +35,7 @@ body {
 
 .navbar-items li {
     display: inline;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-right: 6%;
 }
 
 .navbar-items li a {
