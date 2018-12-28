@@ -2,40 +2,45 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.nav{
+.navbar {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
-    height:75px;
     width: 100%;
     padding: 0;
     background-color: #000000;
+    height: 75px;
+    text-align: center;
 }
-.navbar{
-    width: 100%;
-    height: 100%;
+
+.navbar-header {
+    position: inherit;
+    width: 100px;
+    left: 15%;
+    top: 15px;
 }
-.navbar-header{
-    float: left;
-    width: 75px;
-    margin-left: 10%;
-}
-.navbar-header img{
+
+.navbar-header img {
     width: inherit;
 }
-.navbar-items{
+
+.navbar-items {
+    position: inherit;
     list-style-type: none;
     padding: 0;
     text-align: center;
+    width: inherit;
+    top: 5px;
 }
-.navbar-items li{
+
+.navbar-items li {
     display: inline;
     margin-left: 3%;
     margin-right: 3%;
 }
 
-.navbar-items li a{
+.navbar-items li a {
     color: white;
-    font-weight: bold;
+    font-size: 12pt;
     text-decoration: none;
 }
