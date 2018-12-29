@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) @nimradium 2018-2019.
+ */
+
 body {
     font-family: 'Open Sans', sans-serif;
     padding: 0;
@@ -39,6 +43,7 @@ body {
 }
 
 .navbar-items li {
+    box-sizing: border-box;
     display: inline-block;
     width: auto;
     height: inherit;
@@ -58,13 +63,44 @@ body {
     text-shadow: 0 0 3px white;
 }
 
+.navbar-items .active{
+    border-bottom: 3px solid white;
+}
 /*
 *===END NAVBAR===
+*/
+
+/*
+*===CONTENT===
 */
 
 #TESTCONTENT {
     text-align: center;
     width: 100%;
-    height: 3000px;
+    height: 5000px;
     color: white;
 }
+
+/*
+*===END CONTENT===
+*/
+
+/*
+*===FOOTER===
+*/
+.footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: black;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 8pt;
+}
+.footer a{
+    color: inherit;
+}
+/*
+*===END FOOTER===
+*/
