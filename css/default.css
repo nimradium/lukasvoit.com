@@ -1,5 +1,5 @@
 /*
- * Copyright (c) @nimradium 2018-2019.
+ * Copyright (c) @nimradium 2019.
  */
 
 body {
@@ -8,6 +8,8 @@ body {
     margin: 0;
     background-color: #333333;
 }
+
+/*TODO: Add the default classes like h1 ...*/
 
 /*
 *===NAVBAR===
@@ -74,13 +76,6 @@ body {
 *===CONTENT===
 */
 
-#TESTCONTENT {
-    text-align: center;
-    width: 100%;
-    height: 5000px;
-    color: white;
-}
-
 /*
 *===END CONTENT===
 */
@@ -94,8 +89,8 @@ body {
     width: 100%;
     background-color: black;
     height: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 8pt;
 }
 .footer a{
