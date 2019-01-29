@@ -1,6 +1,9 @@
 /*
  * Copyright (c) @nimradium 2019.
  */
+
+@import "normalize.css";
+
 html{
     scroll-behavior: smooth;
 }
