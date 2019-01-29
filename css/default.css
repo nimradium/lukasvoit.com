@@ -1,7 +1,9 @@
 /*
  * Copyright (c) @nimradium 2019.
  */
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     padding: 0;
@@ -103,3 +105,5 @@ body {
 /*
 *===END FOOTER===
 */
+
+/*TODO: Add responsiveness!*/

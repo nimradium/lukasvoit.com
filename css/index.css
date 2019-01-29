@@ -2,39 +2,84 @@
  * Copyright (c) @nimradium 2019.
  */
 
-
+/*
+*===NAVBAR===
+*/
+    /*TODO: Maybe Sticky Navbar*/
+/*
+*===END NAVBAR===
+*/
 /*
 *===CONTENT===
 */
 .front-banner{
     width: 100%;
-    height: 75vh;
-    background-image: url("../img/banner-front-1.png");
-    background-position: center;
+    height: 70vh;
+    background-image: url("../img/banner-front-1-2.png");
+    background-position: center right;
     background-size: cover;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+.content-banners{
+    display: block;
+    width: 80%;
+    padding: 100px 10% 0 10%;
+}
+
+.content-banner{
+    display: block;
+    width: 100%;
+    height: 400px;
+    background-color: #a4a4a4;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 0 0 100px 0;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.content-banner-img{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border-radius: 3px 0 0 3px;
+}
+
+.content-banner-img img{
+    object-fit: cover;
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}
+
+.content-banner-text{
+
+    display: inline-block;
+    height: 100%;
+    width: auto;
+
+}
+
+.content-banner-text p{
 }
 .about-banner{
-
 }
 
 .photography-banner{
-
 }
 
 .video-banner{
-
 }
 
 .social-banner{
-
 }
 
 .gear-banner{
-
 }
 
 .support-banner{
-
 }
 
 /*
