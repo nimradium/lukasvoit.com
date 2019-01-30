@@ -51,6 +51,10 @@
     position: relative;
 }
 
+.content-banner:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
 .content-banner-img {
     display: block;
     height: 400px;
