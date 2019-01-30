@@ -94,6 +94,13 @@ a{
 /*
 *===CONTENT===
 */
+.content-container::before{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 65px;
+    content: '';
+}
 .content-container{
     width: 100%;
     height: 100%;
