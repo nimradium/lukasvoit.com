@@ -13,9 +13,21 @@ body {
     margin: 0;
     background-color: #333333;
     height: 100%;
+    color: #000000;
 }
 
-/*TODO: Add the default classes like h1 ...*/
+h1{
+}
+h2{
+}
+h3{
+}
+p{
+}
+a{
+    /*TODO: Maybe bold*/
+    color: #d60001;
+}
 
 /*
 *===NAVBAR===
@@ -26,6 +38,7 @@ body {
     height: 65px;
     padding: 0;
     background-color: #000000;
+    z-index: 10;
 }
 
 .navbar-header {
