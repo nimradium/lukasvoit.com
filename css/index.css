@@ -35,7 +35,7 @@
 }
 
 .content-banners a:hover{
-    text-shadow: 0 0 1px black;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 
 .content-banner {
@@ -49,10 +49,14 @@
     margin: 0 0 50px 0;
     border-radius: 3px 3px 3px 3px;
     position: relative;
+    transition-property: box-shadow, transform;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
 }
 
 .content-banner:hover{
-    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+    transform: scale(1.01);
 }
 
 .content-banner-img {
@@ -68,9 +72,10 @@
     width: inherit;
     border-radius: inherit;
     position: inherit;
-    mask-image: linear-gradient(black 75%, transparent 100%);
+    mask-image: linear-gradient(black, transparent);
     mask-mode: alpha;
-    -webkit-mask-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(75%, black), color-stop(100%, transparent));
+    /*-webkit-mask-image: -webkit-gradient(radial, 0% 50%, );*/
+    /*-webkit-mask-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(80%, rgba(0,0,0,1)), color-stop(90%, rgba(0,0,0,0.5)), color-stop(120%, rgba(0,0,0,0)));*/
 
 }
 
