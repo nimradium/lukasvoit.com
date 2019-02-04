@@ -67,6 +67,8 @@
     position: inherit;
 }
 
+
+
 .content-banner-img img {
     height: inherit;
     width: inherit;
@@ -74,9 +76,27 @@
     position: inherit;
     mask-image: linear-gradient(black, transparent);
     mask-mode: alpha;
-    /*-webkit-mask-image: -webkit-gradient(radial, 0% 50%, );*/
-    /*-webkit-mask-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(80%, rgba(0,0,0,1)), color-stop(90%, rgba(0,0,0,0.5)), color-stop(120%, rgba(0,0,0,0)));*/
-
+    /*noinspection CssInvalidPropertyValue*/
+    -webkit-mask-image:
+    linear-gradient(
+    to right,
+    hsl(0, 0%, 0%) 0%,
+    hsla(0, 0%, 0%, 0.984) 18.5%,
+    hsla(0, 0%, 0%, 0.945) 34.3%,
+    hsla(0, 0%, 0%, 0.888) 47.6%,
+    hsla(0, 0%, 0%, 0.816) 58.5%,
+    hsla(0, 0%, 0%, 0.732) 67.5%,
+    hsla(0, 0%, 0%, 0.639) 74.7%,
+    hsla(0, 0%, 0%, 0.542) 80.3%,
+    hsla(0, 0%, 0%, 0.443) 84.7%,
+    hsla(0, 0%, 0%, 0.346) 88%,
+    hsla(0, 0%, 0%, 0.255) 90.5%,
+    hsla(0, 0%, 0%, 0.172) 92.5%,
+    hsla(0, 0%, 0%, 0.102) 94.2%,
+    hsla(0, 0%, 0%, 0.048) 95.9%,
+    hsla(0, 0%, 0%, 0.012) 97.7%,
+    hsla(0, 0%, 0%, 0) 100%
+    );
 }
 
 .content-banner-text {
