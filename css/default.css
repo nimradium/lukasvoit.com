@@ -41,15 +41,22 @@ a{
     z-index: 10;
 }
 
-.navbar-header {
+.navbar-logo {
     position: inherit;
     top: 10px;
     left: 10%;
     width: 130px;
+    z-index: inherit;
 }
 
-.navbar-header img {
+.navbar-logo a{
     width: inherit;
+    height: 100%;
+    z-index: inherit;
+}
+.navbar-logo img {
+    width: inherit;
+    height: 100%;
 }
 
 .navbar-items {
