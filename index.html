@@ -1,128 +1,107 @@
-<!--
-  ~ Copyright (c) @nimradium 2019.
-  -->
-
 <!DOCTYPE html>
-<html lang="de">
+<html>
+
 <head>
-    <!--FAVICON-->
-    <meta charset="UTF-8">
-    <link href="favicon/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57">
-    <link href="favicon/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60">
-    <link href="favicon/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-    <link href="favicon/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
-    <link href="favicon/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-    <link href="favicon/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
-    <link href="favicon/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
-    <link href="favicon/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
-    <link href="favicon/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
-    <link href="favicon/android-icon-192x192.png" rel="icon" sizes="192x192"  type="image/png">
-    <link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-    <link href="favicon/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
-    <link href="favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-    <link href="favicon/manifest.json" rel="manifest">
-    <meta content="#ffffff" name="msapplication-TileColor">
-    <meta content="favicon/ms-icon-144x144.png" name="msapplication-TileImage">
-    <meta content="#ffffff" name="theme-color">
-    <!--END FAVICON-->
-    <title>Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="css/default.css" rel="stylesheet" type="text/css">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>lukas</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
 
-    <!--NAVBAR-->
-    <nav class="navbar">
-        <div class="navbar-logo">
-            <a href="#">
-                <img alt="logo" src="img/logo.png">
-            </a>
-        </div>
-        <ul class="navbar-items">
-            <li class="active"><a href="#"><span>Home</span></a></li>
-            <li><a href="about.html"><span>Über mich</span></a></li>
-            <li><a href="photography.html"><span>Fotografie</span></a></li>
-            <li><a href="video.html"><span>Video</span></a></li>
-            <li><a href="social.html"><span>Social Media</span></a></li>
-            <li><a href="gear.html"><span>Gear</span></a></li>
-            <li><a href="support.html"><span>Unterstützen</span></a></li>
-        </ul>
-    </nav>
-    <!--END NAVBAR-->
-
-    <!--CONTENT-->
-    <div class="content-container">
-        <div class="front-banner">
-        </div>
-        <div class="content-banners">
-            <a href="about.html">
-                <div class="content-banner about-banner">
-                    <div class="content-banner-img">
-                        <img alt="about-banner" src="img/index/content-banners/about/banner-about-1.png">
-                    </div>
-                    <div class="content-banner-text">
-                        <h1>Über mich</h1>
-                    </div>
-                </div>
-            </a>
-            <a href="photography.html">
-                <div class="content-banner photography-banner">
-                    <div class="content-banner-img">
-                        <img alt="photography-banner" src="img/index/content-banners/photography/banner-photography-2.png">
-                    </div>
-                    <div class="content-banner-text">
-                        <h1>Fotografie</h1>
-                    </div>
-                </div>
-            </a>
-            <a href="video.html">
-                <div class="content-banner video-banner">
-                    <div class="content-banner-img">
-                        <img alt="video-banner" src="img/index/content-banners/video/banner-video-1.png">
-                    </div>
-                    <div class="content-banner-text">
-                        <h1>Video</h1>
-                    </div>
-                </div>
-            </a>
-            <a href="social.html">
-                <div class="content-banner social-banner">
-                    <div class="content-banner-img">
-                        <img alt="social-banner" src="">
-                    </div>
-                    <div class="content-banner-text">
-                        <h1>Social Media</h1>
-                    </div>
-                </div>
-            </a>
-            <a href="gear.html">
-                <div class="content-banner gear-banner">
-                    <div class="content-banner-img">
-                        <img alt="gear-banner" src="img/index/content-banners/gear/banner-gear-2.png">
-                    </div>
-                    <div class="content-banner-text">
-                        <h1>Gear</h1>
-                    </div>
-                </div>
-            </a>
-            <a href="support.html">
-                <div class="content-banner support-banner">
-                    <div class="content-banner-img">
-                        <img alt="support-banner" src="">
-                    </div>
-                    <div class="content-banner-text">
-                        <h1>Unterstützen</h1>
-                    </div>
-                </div>
-            </a>
+<body style="background-color: #ffffff;" data-spy="scroll" data-target="#nav-main" data-offset="500">
+<nav id="nav-main" class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #000000;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home"><img src="assets/img/logo.png" width="130"></a>
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav">
+                <li class="nav-item" ><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#about">Über mich</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#photography">Fotografie</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#video">Video</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">Social Media</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">Gear</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">Unterstützen</a></li>
+            </ul>
         </div>
     </div>
-    <!--END CONTENT-->
-
-    <!--FOOTER-->
-    <div class="footer">
-        <p>&copy; Lukas Voit 2018-2019. All rights reserved. <a href="#">Impressum</a></p>
+</nav>
+<div class="container-fluid p-0 content-main">
+    <div id="home" class="mb-5">
+        <img class="img-fluid" src="assets/img/banner-front-1-2.png" width="100%" height="auto">
     </div>
+    <div class="container">
+        <div id="about" class="row justify-content-center">
+            <div class="col-8 text-center">
+                <img src="assets/img/banner-about-1.png" class="rounded-circle" width="200" height="200">
+                <h2 class="display-3">Über mich</h2>
+                <p class="lead">
+                    Mein Name ist Lukas Voit. Ich bin seit einigen Jahren begeistert an Videografie.
+                    Angefangen hat alles mit meinem ersten richtigen YouTube Projekt: meinem Eigenbau-PC im April 2015.
+                    Mit der Zeit entstand auch ein großes Interesse an der Fotografie, was dazu führte, dass ich nun mit Leidenschaft im Urlaub, in der Natur, verlassene Orte und vieles mehr fotografiere.
+                    Im Laufe der Zeit habe ich mir vieles im Umgang mit Kamera, dem Videoschnitt und Fotobearbeitung selbst beigebracht.
+                    Neben meinem Hobby, Fotos und Videos sowohl zu erstellen als auch zu bearbeiten, bin ich auch sehr sportbegeistert.
+                    Auf meinem Weg habe ich mir viele Ziele gesetzt, die ich nur dank der Unterstützung vieler interessierter Menschen und natürlich meiner Familie und Freunden erreichen konnte.
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div id="photography" class="row pt-3 align-items-center">
+            <div class="col-md-7">
+                <h2 class="display-4">Fotografie</h2>
+                <p class="lead">Meine ersten Fotos entstanden auf meinem LG G4, meist im Urlaub. Ich wollte diese
+                    schönen Momente nicht einfach auf meinem Handy "zustauben" lassen und habe so angefangen, die
+                    schönsten Bilder auf Instagram und Co. zu teilen. Ursprünglich habe ich mir meine erste Kamera zum
+                    Videos Drehen gekauft, aber mit der Zeit gehörte das Fotografieren dann zu meinem Alltag. Das Besondere an der Fotografie
+                    ist für mich das Einfangen aller Emotionen in einem Standbild und das Spielen mit verschiedenen
+                    Perspektiven. So versuche ich mit jedem Bild etwas neues zu zeigen, selbst alte und oft auch schon
+                    kaputte Gegenstände können so ein tolles Motiv abgeben. Die meisten Fotos veröffentliche ich auf
+                    Stock-Websites und dort kann sich jeder einen Überblick über meine Werke verschaffen.
+                    Wenn du an einem bestimmten Foto interessiert bist oder einen Fotograf suchst, freue ich mich immer
+                    über eine Mail oder eine Nachricht über meine Social Media Seiten.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img src="assets/img/banner-photography-2.png" width="500" height="500" class="rounded img-fluid">
+            </div>
+        </div>
+        <hr>
+        <div id="video" class="row pt-3 align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="display-4">Video</h2>
+                <p class="lead">Wie bin ich auf die Idee gekommen, Videos zu machen? Angefangen hat alles mit meinen
+                    ersten PC, einem Eigenbau-Projekt. Da diese Videos sehr gut angekommen sind auf YouTube habe ich
+                    einfach angefangen, nach Lust und Laune verschiedene Produkte in Form von Reviews vorzustellen. Mit
+                    jedem Video wuchs bei mir auch der Anspruch, die Videos immer professioneller zu produzieren und so
+                    wurde meine Ausrüstung auch mit der Zeit immer besser (Meine komplette Ausrüstung ist hier zu
+                    finden). Nach drei Jahren wollte ich auch Cinematic Videos von beispielsweise Autos teilen, so
+                    entstand mein Zweit-kanal. Wie komme ich also auf eine Videoidee? Meistens filme ich genau das, was
+                    mir vor die Kamera läuft. So habe ich schon diverse Reviews und Erfahrungsberichte veröffentlicht.
+                    Autos und Fahrräder sind bisher auch nicht verschont geblieben.
+                    Wenn dann ein passendes Lied gefunden ist, setze ich mich an den Videoschnitt. Das Schnittprogramm
+                    ist wie ein Spielplatz für mich. Ich habe mir alle Funktionen und Effekte selbst beigebracht und
+                    versuche dann dieses Können in ein möglichst stimmiges Gesamtbild zusammen zu bringen. Die Resultate
+                    werden auf meinen YouTube-Kanälen veröffentlicht.
+                    Mehr Infos zu mir und meinen Foto und Video Shootings gibts unter dem Tab Social Media.
+                    Ich bin immer auf der Suche nach neuen Produkten für Reviews oder Autos/Bikes für einen CarPorn.
+                </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="assets/img/banner-video-1.png" width="500" height="500" class="rounded img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="d-flex mt-5 mb-0 align-items-center justify-content-center border-top border-secondary" style="min-height: 60px">
+    <p class="mb-0">&copy; Lukas Voit 2018-2019. All rights reserved. <a href="#">Impressum</a></p>
+</footer>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
